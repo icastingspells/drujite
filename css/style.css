@@ -3,12 +3,12 @@
 
 @font-face {
     font-family: 'Verdana Pro';
-    src: url('fonts/VerdanaPro-Regular.eot');
+    src: url('../fonts/VerdanaPro-Regular.eot');
     src: local('Verdana Pro'), local('VerdanaPro-Regular'),
-        url('fonts/VerdanaPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/VerdanaPro-Regular.woff2') format('woff2'),
-        url('fonts/VerdanaPro-Regular.woff') format('woff'),
-        url('fonts/VerdanaPro-Regular.ttf') format('truetype');
+        url('../fonts/VerdanaPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VerdanaPro-Regular.woff2') format('woff2'),
+        url('../fonts/VerdanaPro-Regular.woff') format('woff'),
+        url('../fonts/VerdanaPro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -206,7 +206,7 @@ p {
 
 .section-1 {
     position: relative;
-    background-image: url(/img/section-1_bg.jpg); 
+    background-image: url(../img/section-1_bg.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 0;
